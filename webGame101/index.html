@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title> لعبه حجرة ورقة مقص</title>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+<div><img src=".\img\logo.png" id="logo"></div>
+       
+<div id="score-cont">
+            <h1>score:</h1>
+             <div id="score-display">0</div>
+          </div>
+
+       <div id="game">
+        <h1>لعبه حجره ورقه مقص</h1>
+        <img src=".\img\حجر.png" alt="حجره" id="rock" onclick="playGame('rock')" >
+        <img src=".\img\ورقة.png" alt="ورقه" id="paper" onclick="playGame('paper')">
+        <img src=".\img\مقص.png" alt="مقص" id="scissors" onclick="playGame('scissors')">
+        <div id="result"></div>
+        <img src="" alt="" id="img">
+       </div>
+       
+       <script src="script.js"></script>
+    </body>
+</html>
